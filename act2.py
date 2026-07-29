@@ -1,11 +1,10 @@
-costprice =int(input("enter the cp: "))
-sellingprice =int(input("enter the sp: "))
+costprice =int(input("enter the cp: "))  # 50
+sellingprice =int(input("enter the sp: ")) #55
 
-if(sellingprice > costprice):
-  print("profit")
-  pt=sellingprice-costprice
-  print(pt)
+if(sellingprice > costprice):  #55>50
+  print("profit")  
 else :
-  print("No profit, loss")
-  pt=sellingprice-costprice
-  print(pt)
+  print("No profit,but loss")   #45-50=-5
+
+pt=sellingprice-costprice
+print(pt)
